@@ -1,0 +1,97 @@
+body,html{
+    height: 100%;
+    margin:0;
+    padding: 0;
+   
+}
+.wrapper {
+    min-height: calc(100vh - 100px); /* Adjust based on footer height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.btn-outline-primary{
+    border-radius: 50px;
+    border: 2px solid;
+}
+.card{
+    border-radius: 15px;
+}
+
+.top-row{
+    background-color: rgb(30, 118, 189);
+}
+.first{
+    background-color: rgb(27, 106, 170);
+}
+.second{
+   background-color: rgb(30, 118, 189);
+}
+.third{
+   background-color: rgb(47, 129, 200);
+}
+.fourth{
+  background-color: rgb(56, 144, 210);
+}
+.fifth{
+background-color: rgb(67, 160, 221);
+}
+.sixth{
+ background-color: rgb(76, 174, 230);
+}
+.james div p{
+ font-size: 10px;
+}
+.top-view-mobile{
+    display: none;
+}
+.top-without-text{
+    display: none;
+}
+.carousel-caption h1{
+ font-size: 4rem;
+}
+.carousel-caption h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.footer-button{
+    margin-left: 4 0px;
+}
+@media screen and (max-width: 992px){
+  .top-view{
+    display: none;
+  }
+  .top-view-mobile{
+    display: block;
+  }
+  .top-without-text{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .top-view-mobile{
+        display: none;
+    }
+    .top-without-text{
+        display: block;
+    }
+}
+  
+html {
+    scroll-behavior: smooth; 
+}
+
+.get_in_touch{
+    margin-top: 120px;
+    margin-bottom: 70px;
+}

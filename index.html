@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbarNav">
+  <div class="wrapper">
+    <!-- top-in-mobile -->
+    <div class="container-fluid top-view-mobile">
+      <div class="row james">
+        <div class="col text-white first p-1 d-flex justify-content-center flex-column align-items-center">
+          <i class="bi bi-geo-alt-fill"></i>
+          <p class="fw-medium">LOCATION</p>
+        </div>
+        <div class="col text-white second p-1 d-flex justify-content-center flex-column align-items-center">
+          <i class="bi bi-alarm-fill"></i>
+          <p class="fw-medium">LOCATION</p>
+        </div>
+        <div class="col text-white third p-1 d-flex justify-content-center flex-column align-items-center">
+          <i class="bi bi-file-earmark-plus-fill"></i>
+          <p class="fw-medium">LOCATION</p>
+        </div>
+        <div class="col text-white fourth p-1 d-flex justify-content-center flex-column align-items-center">
+          <i class="bi bi-calendar-check-fill"></i>
+          <p class="fw-medium">LOCATION</p>
+        </div>
+        <div class="col text-white fifth p-1 d-flex justify-content-center flex-column align-items-center">
+          <i class="bi bi-share-fill"></i>
+          <p class="fw-medium">LOCATION</p>
+        </div>
+        <div class="col text-white sixth p-1 d-flex justify-content-center flex-column align-items-center">
+          <i class="bi bi-telephone-forward-fill"></i>
+          <p class="fw-medium">LOCATION</p>
+        </div>
+      </div>
+    </div>
+    <!-- top-viw-in-mobile-without-text -->
+    <div class="container-fluid top-without-text">
+      <div class="row james">
+        <div class="col text-white first p-1 d-flex justify-content-center align-items-center">
+          <i class="bi bi-geo-alt-fill"></i>
+        </div>
+        <div class="col text-white second p-1 d-flex justify-content-center align-items-center">
+          <i class="bi bi-alarm-fill"></i>
+        </div>
+        <div class="col text-white third p-1 d-flex justify-content-center align-items-center">
+          <i class="bi bi-file-earmark-plus-fill"></i>
+        </div>
+        <div class="col text-white fourth p-1 d-flex justify-content-center align-items-center">
+          <i class="bi bi-calendar-check-fill"></i>
+        </div>
+        <div class="col text-white fifth p-1 d-flex justify-content-center align-items-center">
+          <i class="bi bi-share-fill"></i>
+        </div>
+        <div class="col text-white sixth p-1 d-flex justify-content-center align-items-center">
+          <i class="bi bi-telephone-forward-fill"></i>
+        </div>
+      </div>
+    </div>
+    <!-- top-of-website -->
+    <div class="container-fluid top-view">
+      <div class="row px-3 top-row">
+        <div class="col-lg-2 text-white p-3">
+          <i class="bi bi-telephone p-2"></i>123456789
+        </div>
+        <div class="col-lg-4 text-white p-3">
+          <i class="bi bi-geo-alt p-2"></i>Full-Address
+        </div>
+        <div class="col-lg-3 text-white p-3">
+          <i class="bi bi-envelope p-2"></i>E-mail ID
+        </div>
+        <div class="col-lg-3 text-white d-flex">
+          <i class="bi bi-facebook ms-auto me-4 pt-3"></i><i class="bi bi-twitter-x me-4 pt-3"></i><i
+            class="bi bi-threads-fill pt-3"></i>
+        </div>
+      </div>
+    </div>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="/ANDRO-removebg-preview.png " alt="logo"
+            style="height: 65px; width: auto" />ANDRO Hospital</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our-specialist">OUR SPECIALIST</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">CONTACTS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- carousel -->
+    <div id="home">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/atrial-fibrillation-7832673_1920.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100">
+              <h1>QUALITY HEARTCARE</h1>
+              <h2>FOR THE ENTIRE FAMILY</h2>
+              <p class="fw-normal">
+                Helping Thousands of people to Achieve better heart health
+              </p>
+              <button type="button" class="btn btn-outline-dark px-3 fs-5">
+                Book Now
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/heart-7684233_1920.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100">
+              <h1>WE PROVIDE</h1>
+              <h2>COMPLETE HEART CARE</h2>
+              <p class="fw-normal">The pathway to a healthier, strong heart</p>
+              <button type="button" class="btn btn-outline-dark px-3 fs-5">
+                Book Now
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/cost-1931798_1920.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100">
+              <h1>QUALITY HEARTCARE</h1>
+              <h2>FOR THE ENTIRE FAMILY</h2>
+              <p class="fw-normal">
+                Helping Thousands of people to Achieve better heart health
+              </p>
+              <button type="button" class="btn btn-outline-dark px-3 fs-5">
+                Book Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- banner -->
+    <div class="container col-xxl-8 px-4 mt-5" id="about-us">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+       
+        <div class="col-10 col-sm-8 col-lg-6 d-flex justify-content-center mx-auto text-center">
+          <img src="/newbanner.jpeg" class="d-block mx-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+        </div>
+    
+        
+        <div class="col-lg-6 text-center text-lg-start">
+          <h5>15 Years of Excellence in Cardiac Care</h5>
+          <h1 class="display-5 fw-bold lh-1 mb-3">
+            Welcome to <span class="text-primary">Andro Clinic</span>
+          </h1>
+          <p class="lead fs-6 fw-normal">
+            At Popular Heart Clinic, we pride ourselves on delivering unparalleled cardiac care to the community. For over 15 years, our dedicated team has provided exceptional services, helping patients lead healthier lives. Whether you are seeking preventive heart health advice, diagnostic evaluations, or advanced cardiac treatments, we are here to support you every step of the way.<br /><br />
+            We believe in a patient-centered approach and are committed to offering compassionate care backed by the latest advancements in medical technology. Trust us as your partners in achieving and maintaining optimal heart health.<br /><br />
+            Dr. Puroshottam Kumar, MD (Medicine) and DNB (Cardiology), is a highly respected and accomplished cardiologist dedicated to improving heart health through exceptional medical care and advanced expertise. With years of experience in the field of cardiology, Dr. Kumar has been instrumental in diagnosing and treating complex cardiac conditions, ensuring patients receive the best possible outcomes.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- specilist banner -->
+    <div class="px-4 py-5 text-center" id="our-specialist">
+      <p class="fs-5 fw-medium">Meet Our Specialists</p>
+      <h1 class="display-5 fw-bold">Our Experts</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="mb-4 fst-normal">
+          Our team of highly skilled specialists is here to provide the best
+          care possible..
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-outline-primary btn-lg px-4" id="btn-all">
+            All
+          </button>
+          <button type="button" class="btn  btn-outline-primary btn-lg px-4" id="btn-cardiology">
+            Cardiology
+          </button>
+          <button type="button" class="btn   btn-outline-primary btn-lg px-4" id="btn-ctvs">
+            CTVs
+          </button>
+          <button type="button" class="btn  btn-outline-primary btn-lg px-4" id="btn-gynecology">
+            Gynecology
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- cards -->
+
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-4" id="cardiology-card">
+          <div class="card py-3 px-3">
+            <img src="/pursotom.jpeg" class="card-img-top img-fluid" style="height: 200px; object-fit: cover"
+              alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Dr. Purushottam Kumar</h5>
+              <p class="card-text">Cardiology</p>
+              <p class="card-text">
+                Expert in advanced heart care and diagnostics.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" id="ctvs-card">
+          <div class="card py-3 px-3">
+            <img src="/rajat kalre.jpg" class="card-img-top img-fluid" style="height: 200px; object-fit: cover"
+              alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Dr. Rajat Kalre</h5>
+              <p class="card-text">CTVS</p>
+              <p class="card-text">
+                Available every 2nd week. Specialized in cardiovascular and
+                thoracic surgery.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" id="gynecology-card">
+          <div class="card py-3 px-3">
+            <img src="/nidhi kumar.jpeg" class="card-img-top img-fluid" style="height: 200px; object-fit: cover"
+              alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Dr. Nidhi Kumari</h5>
+              <p class="card-text">MS OBS GYN</p>
+              <p class="card-text" id="services">
+                Starting Soon: Expert in gynecological and obstetric care.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <!-- services -->
+
+  <div class="px-4 py-5 text-center">
+    <p class="fs-5 fw-semibold text-primary">What We Offer</p>
+    <h1 class="display-5 fw-bold">Our Services</h1>
+  </div>
+  <p class="fs-6 fw-semibold text-center">
+    Our dedicated team ensures that you receive the highest quality care and
+    support to maintain your health and well-being.
+  </p>
+
+  <!-- services-card -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="/heart_checkup.jpg" class="card-img-top img-fluid" style="height: 200px; object-fit: cover"
+            alt="..." />
+          <div class="card-body">
+            <h5 class="card-title fs-2">Heart Check-Up</h5>
+            <p class="card-text">
+              Comprehensive heart evaluations to detect and prevent
+              cardiovascular diseases.
+            </p>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">ECG and Stress Testing</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">24-Hour Holter Monitoring</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Echocardiography</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Echocardiography</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Risk Assessments</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="/interver_cardiology.jfif" class="card-img-top img-fluid" style="height: 200px; object-fit: cover"
+            alt="..." />
+          <div class="card-body">
+            <h5 class="card-title fs-2">Interventional Cardiology</h5>
+            <p class="card-text">
+              Advanced procedures to treat heart conditions and improve
+              cardiac function.
+            </p>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Angiography & Angioplasty</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Pacemaker Implantation</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Coronary Artery Stenting</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Heart Valve Repairs</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Electrophysiology Studies</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="/hearthealthmanage.avif" class="card-img-top img-fluid" style="height: 200px; object-fit: cover"
+            alt="..." />
+          <div class="card-body">
+            <h5 class="card-title fs-2">Heart Health Management</h5>
+            <p class="card-text">
+              Ongoing support and treatment for chronic heart conditions.
+            </p>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Heart Failure Management</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Arrhythmia Treatment</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Hypertension Care</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Lipid Profile Monitoring</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Post-Surgery Recovery</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="/parental care.webp" class="card-img-top img-fluid" style="height: 200px; object-fit: cover"
+            alt="..." />
+          <div class="card-body">
+            <h5 class="card-title fs-2">Prenatal Care</h5>
+            <p class="card-text">
+              Comprehensive care for expecting mothers to ensure a healthy
+              pregnancy.
+            </p>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Ultrasound Scans</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">High-Risk Pregnancy Management</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Nutritional Counseling</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Regular Check-Ups</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Labor and Delivery Support</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="/gyno health.jfif" class="card-img-top img-fluid" style="height: 200px; object-fit: cover"
+            alt="..." />
+          <div class="card-body">
+            <h5 class="card-title fs-2">Gynecological Health</h5>
+            <p class="card-text">
+              Diagnosis and treatment for a range of gynecological conditions.
+            </p>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Menstrual Disorders</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">PCOS/PCOD Management</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Fibroid Treatment</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Endometriosis Care</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Gynecological Surgeries</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="/wellness_care.jpg" class="card-img-top img-fluid" style="height: 200px; object-fit: cover"
+            alt="..." />
+          <div class="card-body">
+            <h5 class="card-title fs-2">Wellness Services</h5>
+            <p class="card-text">
+              Comprehensive health services for women of all ages.
+            </p>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Annual Wellness Exams</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Contraceptive Counseling</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Hormonal Therapy</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Menopause Management</p>
+              </div>
+            </div>
+            <div class="container mt-2" id="gallery">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-check"></i>
+                <p class="card-text">Sexual Health Counseling</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- health-gallery -->
+  <div class="px-4 py-5 text-center">
+    <p class="fs-5 fw-semibold text-primary">Our Patients' Stories</p>
+    <h1 class="display-5 fw-bold">Heart Health Gallery</h1>
+    <p class="fs-6 fw-semibold text-center mx-6">
+      A healthy heart leads to a healthier life. Here are some inspiring
+      stories and examples of heart health improvements that we have helped
+      our patients achieve.
+    </p>
+  </div>
+  <!-- pic-gallery -->
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="/g1.jpeg" class="img-fluid rounded" alt="Image 1" />
+      </div>
+      <div class="col-md-4">
+        <img src="/g2.jpeg" class="img-fluid rounded" alt="Image 2" />
+      </div>
+      <div class="col-md-4">
+        <img src="/g3.jpeg" class="img-fluid rounded" alt="Image 3" />
+      </div>
+    </div>
+  </div>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="/g4.jpeg" class="img-fluid rounded" alt="Image 1" />
+      </div>
+      <div class="col-md-4">
+        <img src="/g5.jpeg" class="img-fluid rounded" alt="Image 2" />
+      </div>
+      <div class="col-md-4">
+        <img src="/g6.jpeg" class="img-fluid rounded" alt="Image 3" />
+      </div>
+    </div>
+  </div>
+  <!-- our services -->
+  <div class="px-4 py-5 text-center">
+    <p class="fs-5 fw-semibold text-primary">See the difference</p>
+    <h1 class="display-5 fw-bold">Why Choose Us?</h1>
+  </div>
+
+  <div class="container px-4 py-5" id="featured-3">
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div
+          class="feature-icon d-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <i class="bi bi-heart-pulse-fill center"></i>
+        </div>
+        <h3 class="fs-4 text-body-emphasis text-center">
+          Expert Cardiology Care
+        </h3>
+        <p class="text-center">
+          Our team of experienced cardiologists provides advanced diagnostic
+          and treatment options for all heart-related conditions, ensuring
+          personalized and effective care.
+        </p>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <i class="bi bi-gender-female"></i>
+        </div>
+        <h3 class="fs-4 text-body-emphasis text-center">
+          Comprehensive Women's Health
+        </h3>
+        <p class="text-center">
+          Our gynecology specialists are dedicated to providing compassionate
+          care, from routine check-ups to advanced treatments, tailored to
+          every stage of a woman’s life.
+        </p>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <i class="bi bi-shield-shaded"></i>
+        </div>
+        <h3 class="fs-4 text-body-emphasis text-center">
+          State-of-the-Art Facilities
+        </h3>
+        <p class="text-center">
+          We use cutting-edge technology and modern medical equipment to
+          ensure accurate diagnoses and effective treatments, offering the
+          highest standard of care.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- testinomials -->
+  <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center bg-body-tertiary" id="testimonials">
+    <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+      <p class="me-auto text-end">What People Say</p>
+      <h1 class="display-4 fw-bold lh-1 text-body-emphasis text-end">
+        Patient Testimonials
+      </h1>
+      <p class="lead text-end">
+        "From the moment I walked in, I felt at ease. The staff were
+        attentive, and the doctor made sure to address all my concerns. The
+        overall experience was fantastic, and I will definitely return for
+        future treatments!"
+      </p>
+      <p class="text-end">Priya Sharma, Teacher</p>
+    </div>
+    <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+      <img class="rounded-lg-3" src="/testinomial.jpg" alt="" width="720" />
+    </div>
+  </div>
+  <!-- clinic-figure -->
+
+  <div class="px-4 py-5 text-center">
+    <p class="fs-5 fw-semibold text-primary">Clinic Figures</p>
+    <h1 class="display-5 fw-bold">What Have We Achieved</h1>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-3">
+        <div
+          class="card text-center pt-3 feature-icon d-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <i class="bi bi-heart-pulse card-icon"></i>
+          <h1>15+</h1>
+          <h5>Years of Experiance</h5>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-3">
+        <div
+          class="card text-center pt-3 feature-icon d-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <i class="bi bi-heart-fill"></i>
+          <h1>5K</h1>
+          <h5>Improved Heart Health</h5>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-3">
+        <div
+          class="card text-center pt-3 feature-icon d-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <i class="bi bi-person-badge"></i>
+          <h1>30</h1>
+          <h5>Heart Specialists</h5>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-3">
+        <div
+          class="card text-center pt-3 feature-icon d-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <i class="bi bi-geo-alt-fill"></i>
+          <h1>1</h1>
+          <h5>Our Location</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- patient-information -->
+  <div class="row align-items-start g-5 py-5 mt-3 bg-body-tertiary">
+    <div class="col-10 col-sm-8 col-lg-6 d-flex justify-content-center mx-auto text-center">
+      <img src="/human-9271230_1280.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+        height="500" loading="lazy" />
+    </div>
+    <div class="col-lg-6">
+      <h5 class="display-5 fw-bold lh-1 mb-3">
+        Patient <span class="text-primary">Information</span>
+      </h5>
+      <p class="lead fw-semibold">
+        <span class="text-primary">General</span> | Urgent
+      </p>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <span class="text-primary fs-5 fw-semibold mx-3">1.</span>How
+              often should I visit my cardioligist?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Regular check-ups with your cardiologist are crucial for
+              monitoring your heart health, especially if you have a history
+              of heart disease or risk factors. Typically, it's recommended to
+              see a cardiologist once a year, but this may vary based on your
+              health condition.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <span class="text-primary fs-5 fw-semibold mx-3">2.</span>Why
+              are regular heart assessments so important?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Regular heart assessments help detect potential issues early,
+              ensuring that you receive the necessary treatment and care to
+              prevent serious complications such as heart attacks or strokes.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <span class="text-primary fs-5 fw-semibold mx-3">3.</span>How do
+              I know if my heart is healthy?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Regular heart check-ups, including tests like an ECG or
+              echocardiogram, can help determine the health of your heart.
+              Your cardiologist will assess your heart rate, blood pressure,
+              and overall cardiovascular health to determine if any treatment
+              is needed.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <span class="text-primary fs-5 fw-semibold mx-3">4.</span>How
+              can I improve my heart health?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              To improve your heart health, it's important to maintain a
+              healthy diet, exercise regularly, manage stress, avoid smoking,
+              and limit alcohol intake. Regular check-ups with your
+              cardiologist are also key to managing your heart health
+              effectively.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="contacts"></div>
+  <!-- get-in-touch -->
+  <div class="container  get_in_touch">
+    <div class="row ">
+      <div class="col-md-6 ">
+        <h1>Get In Touch With Us</h1>
+
+        <p class="mt-5">For general questions, please send us a message and <br>we’ll get right back to you. You can
+          also call us directly <br>to speak with a member of our service team or <br>insurance expert.</p>
+        <p class="my-4 fs-6 fw-lighter">Fields marked with a * are required.</p>
+        <h5>Stay Connected</h5>
+        <div class="d-flex gap-3 mt-5">
+          <i class="bi bi-whatsapp"></i>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-facebook"></i>
+        </div>
+      </div>
+      <div class="col-md-6 ">
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1"></label>
+
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your name*">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1"></label>
+
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email*">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1"></label>
+
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your phone*">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+          </div>
+
+          <button type="button" class="btn btn-outline-primary mt-4">Send message</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- footer -->
+  <footer class=" bg-body-tertiary mb-0">
+    <div class="row">
+      <!-- Left Column: Email Subscription with Logo -->
+      <div class="col-md-4 mb-3">
+        <form>
+          <img src="/ANDRO-removebg-preview.png" alt="Logo" width="90" height="90" class="me-2 img-fluid ms-5">
+          <p class="ms-3">To receive email releases, simply provide us with your email below</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2 ms-3">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+          <div class="mx-5 my-4 d-flex gap-3">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-messenger"></i>
+            <i class="bi bi-meta"></i>
+            <i class="bi bi-whatsapp"></i>
+          </div>
+        </form>
+      </div>
+
+      <!-- Middle Column: About Section -->
+      <div class="col-md-4 mb-3">
+        <h3 class="text-center">About Us</h3>
+        <p class="text-center mt-4">We are a dedicated healthcare provider committed to delivering exceptional care and
+          services. Our team of specialists and professionals works together to ensure the well-being of our patients,
+          with a focus on holistic health and wellness.</p>
+        <p class="text-center"><button type="button" class="btn btn-outline-primary">Learn more about us</button></p>
+      </div>
+
+      <!-- Right Column: Contact Section -->
+      <div class="col-md-4 mb-3">
+        <h3 class="text-center">Our Contacts</h3>
+        <p class="text-center mt-4"><i class="bi bi-geo-alt-fill mx-2"></i>Kargil Chowk, Sharif Colony, Sitamarhi, Bihar
+          843302</p>
+        <p class="text-center"><button type="button" class="btn btn-outline-primary">Get direction on map<i
+              class="bi bi-arrow-right mx-2"></i></button></p>
+        <p class="text-center"><i class="bi bi-telephone-fill mx-2"></i>91137 30020</p>
+        <p class="text-center"><i class="bi bi-telephone-fill mx-2"></i>82714 50207</p>
+        <p class="text-center"><i class="bi bi-telephone-fill mx-2"></i>75428 24476</p>
+        <p class="text-center"><i class="bi bi-envelope mx-2"></i>purushottamsinha945@gmail.com</p>
+      </div>
+    </div>
+
+    <!-- Bottom Section: Copyright & Social Links -->
+    <div class="d-flex flex-column align-items-center py-3 border-top text-bg-primary m-0">
+      <p class="text-center w-100 mb-0">© 2024 Company, Inc. All rights reserved.</p>
+    </div>
+
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
